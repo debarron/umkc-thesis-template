@@ -1,0 +1,91 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 120 260 320 460 
+%%Title: (NRheeHex2b.eps)
+%%Creator: Larry Eifler
+%%CreationDate: December 8, 2004
+%%EndComments
+
+%    -- Procedures --
+
+
+
+/DashHexes {
+   45   0  moveto  ZigZagUp 
+  135   0  moveto  ZigZagUp 
+  TwoNE
+  FourHNE  } def
+
+
+/ZigZagUp {
+    15    30  rlineto
+   -30    30  rlineto
+    30    60  rlineto  
+   -30    30  rlineto
+    15    30  rlineto   stroke } def
+
+/NE { 
+   moveto  60 30 rlineto stroke } def
+
+/HNE {
+   moveto  30 15 rlineto stroke } def
+
+/FourHNE {
+    0   45  HNE
+    0  135  HNE
+  150   30  HNE
+  150  120  HNE    } def
+
+/TwoNE {
+  60   30 NE
+  60  120 NE   } def
+
+%    -- Main Program --
+
+130 270  translate
+
+0.5 setlinewidth 
+
+   0    0  moveto       0   180  rlineto
+ 180    0  rlineto      0  -180  rlineto  closepath  stroke
+  90    0  moveto       0   180  rlineto  stroke
+   0   90  moveto     180     0  rlineto  stroke
+
+   0    0  moveto     180   180  rlineto  stroke
+   0   90  moveto      90    90  rlineto  stroke
+  90    0  moveto      90    90  rlineto  stroke
+
+
+
+120 150 2 0 360 arc fill  % A
+ 60 120 2 0 360 arc fill  % B
+ 30  60 2 0 360 arc fill  % C
+ 60  30 2 0 360 arc fill  % D
+120  60 2 0 360 arc fill  % E
+150 120 2 0 360 arc fill  % F 
+stroke  
+
+
+/Times-Italic  findfont  10 scalefont setfont
+125 148 moveto (A) show
+ 48 115 moveto (B) show
+ 25  47 moveto (C) show  %
+ 60  20 moveto (D) show  %
+126  57 moveto (E) show
+151 110 moveto (F) show
+
+
+[2] 0 setdash
+
+DashHexes
+
+
+[1] 0 setdash
+
+ 30    60  moveto      90    0  rlineto stroke
+ 60   120  moveto      90    0  rlineto stroke
+
+
+showpage
+
+
+%%EOF

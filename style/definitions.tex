@@ -1,0 +1,41 @@
+% file:    Defns-LQE.tex
+% date:    July 27, 2005
+% author:  Larry Eifler
+%
+
+
+\def\singlespace{\baselineskip=12pt\relax}                                             
+
+\def\text#1{\mbox{#1}}  %  Poor man's \text  
+
+% Declarations for theorem-like structures
+
+\newtheorem{theorem}{THEOREM}[chapter]
+\newtheorem{lemma}[theorem]{LEMMA} 
+\newtheorem{proposition}[theorem]{PROPOSITION} 
+\newtheorem{definition}[theorem]{DEFINITION} 
+\newtheorem{corollary}[theorem]{COROLLARY}
+\newtheorem{remark}[theorem]{REMARK}
+\newtheorem{example}[theorem]{EXAMPLE} 
+
+\def\proof{\trivlist %
+   \item[\hskip \labelsep{PROOF.\quad}]}
+
+\def\QEDmark{\null\hfill \makebox{$\sqcup\hskip-8pt\sqcap$} }
+\def\endproof{\QEDmark\endtrivlist}   %  Ends proof with a marker.
+
+\font\BlackBoard msbm10 at 12pt \relax
+\def\Bbb#1{\mbox{\BlackBoard #1}} 
+
+\newcommand{\BbR}{\mbox{\BlackBoard R}}
+\newcommand{\BbN}{\mbox{\BlackBoard N}}
+\newcommand{\BbC}{\mbox{\BlackBoard C}}
+\newcommand{\BbZ}{\mbox{\BlackBoard Z}}
+\newcommand{\BbQ}{\mbox{\BlackBoard Q}}
+\newcommand{\BbK}{\mbox{\BlackBoard K}}
+\newcommand{\BbH}{\mbox{\BlackBoard H}}
+\newcommand{\BbD}{\mbox{\BlackBoard D}}
+
+\endinput
+
+

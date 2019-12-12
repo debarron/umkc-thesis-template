@@ -1,0 +1,18 @@
+\contentsline {chapter}{ABSTRACT}{ii}% 
+\contentsline {chapter}{LIST OF ILLUSTRATIONS}{vi}% 
+\contentsline {chapter}{LIST OF TABLES}{vii}% 
+\contentsline {chapter}{ACKNOWLEDGMENTS}{viii}% 
+\contentsline {headingline}{Chapter \hfill \hbox {}}{1}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}% 
+\contentsline {section}{Basic section}{1}% 
+\contentsline {section}{Elaborated section}{1}% 
+\contentsline {subsection}{Sub-Topic 1}{1}% 
+\contentsline {subsection}{Sub-Topic 2}{1}% 
+\contentsline {chapter}{\numberline {2}Backgroud}{2}% 
+\contentsline {chapter}{\numberline {3}Methods}{3}% 
+\contentsline {headingline}{Appendix \hfill \hbox {}}{8}% 
+\contentsline {chapter}{\numberline {A} A USER'S GUIDE FOR THE TEMPLATE}{8}% 
+\contentsline {headingline}{Appendix \hfill \hbox {}}{8}% 
+\contentsline {chapter}{\numberline {A} A USER'S GUIDE FOR THE TEMPLATE}{8}% 
+\contentsline {chapter}{REFERENCES}{12}% 
+\contentsline {chapter}{VITA}{13}% 

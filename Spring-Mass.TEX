@@ -1,0 +1,61 @@
+% file:    Spring-Mass.tex
+% date:    July 27, 2005
+% author:  Larry Eifler  
+%
+
+
+%
+\begin{figure}[htb]
+\begin{center}
+\setlength{\unitlength}{1mm}
+%\newcommand{\MB}{\makebox( 0, 0)}
+\begin{picture}(120,44)(0,-20)
+%
+  \put( 2, -20){\line(0,1){40}}
+  \multiput(0,-14)(0,4){9}{\line(1,-2){2}}
+%
+  \put( 70,0){\MB{\framebox(16,10){m}}}
+%
+  \put( 2,0){\line(1,0){10}}
+  \put(32,0){\line(1,0){30}}
+  \multiput(12,-4)(4,0){5}%
+    {\begin{picture}(4,8)
+    \put(0,4){\line(1,4){1}}
+    \put(1,8){\line(1,-4){2}}
+    \put(3,0){\line(1,4){1}}
+    \end{picture}}
+  \put(22,10){\MB{k}}
+% 
+  \multiput(50,-30)(0,4){11}{\line(0,1){2}} 
+  \multiput(70,-30)(0,4){7}{\line(0,1){2}}
+  \put(55,-25){\vector(-1,0){5}}
+  \put(65,-25){\vector( 1,0){4.5}}
+  \put(60,-25){\MB{$x(t)$}}
+%
+  \put(50,20){\vector(0,-1){4}}
+  \put(50,20){\line(1,0){4}}
+  \put(72,20){\MB{Equilibrium point}}
+%
+  \put( 78, 0){\line(1,0){32}}
+  \put(110,-3){\line(0,1){6}}
+  \put(110, 0){\MB{\framebox(20,8){}}}
+  \put(110, 8){\MB{a}}
+%
+  \put(40,-10){\line(1,0){13}}
+  \put(53,-10){\line(1,2){4}}
+  \put(57, -2){\vector(1,0){4.5}}
+  \put(35,-10){\MB{$F(t)$}}
+\end{picture}
+\vspace{14pt}
+\end{center}
+\caption{Spring mass system}
+\label{SpringMass}
+\end{figure}
+%
+ 
+\endinput
+
+
+
+
+ 

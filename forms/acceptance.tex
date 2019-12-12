@@ -1,0 +1,46 @@
+% file:    acceptance-LQE.tex
+% date:    July 27, 2005
+% author:  Larry Eifler 
+%    
+%
+% ===== Acceptance Page
+%
+
+\typeout{ACCEPTANCE PAGE}
+\thispagestyle{empty}
+
+    The undersigned, appointed by the Dean of the 
+School of Graduate Studies, have examined a dissertation 
+titled ``Your Exact Thesis Title Goes Here,'' 
+presented by Your Full Name, 
+candidate for the Doctor of Philosophy degree, 
+and hereby certify that in their opinion it is worthy of acceptance.
+
+\vspace{6ex}
+
+
+\def\HboxFilHbox#1#2{%
+  \hbox to \textwidth{%
+  \hbox to 3.5in{#1} \hfil \hbox to 2.0in{#2} } }
+
+\def\ReaderApproval#1#2{%
+  \vspace{6ex} 
+  \HboxFilHbox{\hrulefill}{\hrulefill} \par
+  \HboxFilHbox{#1\hfil}{Date \hfil }   \par
+  \HboxFilHbox{#2\hfil}{\hfil}         \par }
+
+\def\Dept{Department of Mathematics and Statistics}
+
+{
+\singlespace
+\ReaderApproval{First Professor, Ph.D. }{\Dept}
+\ReaderApproval{Second Professor, Ph.D.}{\Dept}
+\ReaderApproval{Third Professor, Ph.D. }{\Dept}
+\ReaderApproval{Fourth Professor, Ph.D.}{Another Department or Unit}
+\ReaderApproval{Fifth Professor, Ph.D. }{Another Department or Unit} 
+}
+
+\vfill
+\newpage
+
+\endinput
