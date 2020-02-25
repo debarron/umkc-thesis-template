@@ -1,0 +1,31 @@
+
+\def\figureref#1{Fig.~\ref{#1}}
+\def\figref#1{Fig.~\ref{#1}}
+\def\tableref#1{Table~\ref{#1}}
+
+\def\bL{\mathbb{L}}
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]%
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}%
+                           {2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+
+
+\setlength{\tclineskip}{1.05\baselineskip}
+%%% ----------------------------------------------------------------------
+
+%-------- Copied From Mircea Thesis --------------------------------------
+\textwidth 15cm
+\textheight 20.2cm
+\topmargin 0.0cm
+\oddsidemargin  0.8cm
+\evensidemargin 0.8cm
+\parindent 0.5in
+\parskip 0.0cm
+\long\def\comment#1{}
+
+
+

@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{pnni}
+ATM{ }Forum{ }Technical{ }Committee.
+\newblock \emph {Private Network-Network Interface Specification Version 1.1}.
+\newblock Available from.
+\newblock
+  \url{http://www.cisco.com/univercd/cc/td/doc/product/wanbu/bpx8600/pnni_ses/rel11/pnnipg/pintro.htm
+  (2000)}; accessed 18 August 2011.
+
+\bibitem{bgpLSurvey}
+Huston, G., Rossi, M., and Armitage, G.
+\newblock Securing BGP - A Literature Survey.
+\newblock {\em IEEE Communications Surveys and Tutorials 13}, 2 (2011),
+  199--222.
+
+\end{thebibliography}
