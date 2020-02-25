@@ -5,8 +5,7 @@ Make sure to install latex visit the <a href="https://www.latex-project.org/get/
 to download and install Latex in your system.
 After installing latex, please put special atention to the following note:
 
-> March 18, 2012
-
+> March 18, 2012. 
 > Unless necessary, do NOT change any of the style files in sty folder
 
 
