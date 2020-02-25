@@ -1,54 +1,44 @@
+# umkc-thesis-template
 
-Make sure to install latex
-https://www.latex-project.org/get/
+## Before you go on ...
+Make sure to install latex visit the <a href="https://www.latex-project.org/get/">Latex Project</a>
+to download and install Latex in your system.
 
-Put special atention to the following note:
-March 18, 2012
-Unless necessary, do NOT change any of the style files in sty folder
+After installing latex, please put special atention to the following note:
+> March 18, 2012
+> Unless necessary, do NOT change any of the style files in sty folder
 
 
------- Compile the dissertation
-We use a Makefile to build the document. Be sure to to set the rigth latex compiler, before running
+## Compile the dissertation
+Alright, now let's see how it's done. Use a Makefile to build the document. Be sure to to set the rigth latex compiler, before running
 the following command. Currently Makefile uses pdflatex compiler. Feel free to change the latex compiler
 if you need to. 
 
 To build the thesis run:
-make all
+`make all`
 
 ## Project structure
-dissertation.tex:
-  The entry point of the document
+Template is organized in a set of directories and files. The idea was to keep it simple and arange files in a clean way (🤞).
 
-dissertation-details.tex:
-  you'll find entries where you want to enter/change your name, thesis title, and so on
+### Template's files
+* dissertation.tex, Dissertation's main document. Here is where everything is included.
+* dissertation-details.tex, Include's the student's and dissertation's info (name, major, year published, thesis title, and so on)
+* title.tex: This is the title page, you'll need to change your previous degree information
+* copyright.tex: Probably nothing to change here, will automatically populate
+* abstract.tex: Your abstract goes here, make sure you don't mess up any tags!
+* approval.tex: Your committee members' name and department go here, make changes as applicable
+* acknowledgement.tex: Edit to enter your content
+* vita.tex: Edit to enter your content
+* packages.tex: List with all the packages that your dissertation needs. Is my OCD-way of maintain a latex document.
+* definitions.tex: Same as 👆.
 
-figures:
-  All your figures are to be stored here and then included from elsewhere
-
-tables:
-  All your tables are to be stored here and included from elsewhere
-
-chaptes:
-  All your chaptes are to be stored here and then included to dissertation.tex
-
-title.tex:
-  this is the title page, you'll need to change your previous degree information
-
-copyright.tex:
-  probably nothing to change here, will automatically populate
- 
-abstract.tex:
-  Your abstract goes here, make sure you don't mess up any tags!
-
-approval.tex:
-  your committee members' name and department go here, make changes as applicable
-         
-acknowledgement.tex:
-  edit to enter your content
-
-vita.tex
-  edit to enter your content
-
+### Template's directories
+* figures: All your figures are to be stored here and then included from elsewhere.
+* tables: All your tables are to be stored here and included from elsewhere.
+* chapters: All your chaptes are to be stored here and then included to dissertation.tex.
+* sty: Styles and formats, do not touch it, unless is necesary.
+* biblio: References.
+* appendices: All appendices are to be stored here.
 
 ## Special thanks to 
 Many people contributed to developing this template for UMKC thesis/dissertation over the years. 
