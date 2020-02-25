@@ -6,6 +6,7 @@ to download and install Latex in your system.
 After installing latex, please put special atention to the following note:
 
 > March 18, 2012
+
 > Unless necessary, do NOT change any of the style files in sty folder
 
 
