@@ -15,7 +15,7 @@ if you need to.
 To build the thesis run:
 make all
 
------- Project structure
+## Project structure
 dissertation.tex:
   The entry point of the document
 
@@ -50,16 +50,16 @@ vita.tex
   edit to enter your content
 
 
------------ Special thanks to 
+## Special thanks to 
 Many people contributed to developing this template for UMKC thesis/dissertation over the years. 
 Here's a partial list:
 
-Deep Medhi
-Mircia Agapie
-Dijiang Huang
-Shekhar Srivastava
-Balaji Krithikaivasan
-Khulud Asultan
-Mayanka Chandra Shekar
-Larry Q. Eifler 
+* <a href="https://sites.google.com/view/dmedhi">Deep Medhi</a>
+* Mircia Agapie
+* Dijiang Huang
+* Shekhar Srivastava
+* Balaji Krithikaivasan
+* <a href="https://github.com/KhuludA">Khulud Alsultan</a>
+* <a href="https://github.com/mayankachandrashekar">Mayanka Chandra Shekar</a>
+* Larry Q. Eifler 
 
