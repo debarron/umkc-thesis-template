@@ -61,5 +61,5 @@ Here's a partial list:
 * Balaji Krithikaivasan
 * <a href="https://github.com/KhuludA">Khulud Alsultan</a>
 * <a href="https://github.com/mayankachandrashekar">Mayanka Chandra Shekar</a>
-* Larry Q. Eifler 
+* <a href="http://d.web.umkc.edu/delawarer/MathDeptHistory/Eifler.htm">Larry Q. Eifler</a>
 
