@@ -16,7 +16,7 @@ To build the thesis run:
 
 `make all`
 
-If there were no errors during the compilation process, you'll get **dissertattion.pdf** document created in the current directory.
+If there were no errors during the compilation process, you'll get **dissertation.pdf** document created in the current directory.
 
 ## Project structure
 Template is organized in a set of directories and files. The idea was to keep it simple and arange files in a clean way (🤞).
