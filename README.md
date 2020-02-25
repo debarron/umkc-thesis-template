@@ -3,19 +3,20 @@
 ## Before you go on ...
 Make sure to install latex visit the <a href="https://www.latex-project.org/get/">Latex Project</a>
 to download and install Latex in your system.
-
 After installing latex, please put special atention to the following note:
+
 > March 18, 2012
 > Unless necessary, do NOT change any of the style files in sty folder
 
 
 ## Compile the dissertation
 Alright, now let's see how it's done. Use a Makefile to build the document. Be sure to to set the rigth latex compiler, before running
-the following command. Currently Makefile uses pdflatex compiler. Feel free to change the latex compiler
-if you need to. 
-
+the following command. Currently Makefile uses pdflatex compiler. Feel free to change the latex compiler if you need a different compiler than pdflatex. 
 To build the thesis run:
+
 `make all`
+
+If there were no errors during the compilation process, you'll get *dissertattion.pdf* document created in the current directory.
 
 ## Project structure
 Template is organized in a set of directories and files. The idea was to keep it simple and arange files in a clean way (🤞).
